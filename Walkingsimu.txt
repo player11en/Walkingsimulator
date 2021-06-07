@@ -1,0 +1,8 @@
+1. Bodenfläche / Teleportationsfläche wird über den Mesh-Namen definiert.
+2. Modell- und Texturengröße (die Gltf Datei) Auswirkungen auf die Ladezeit
+--> Modell Optimierung, Meshbenennung, Textur Reduktion (wichtig für Funktion und bessere Ladezeit)
+3. Babylonjs nutzt WebXR API für VR --> Gewisse Funktionalitäten müssen angepasst werden
+--> die Höhe der VRKamera wird von der realen Standhöhe definiert sollte beachtet werden
+--> Empfehlung wechsel auf die WebXR API da VRHelper nichtmehr aktuell
+4. Skalierung des Splashscreen nicht optimal für Hochformat
+5. AR Button leitet auf eine neue Seite mit dem Szene- Viewer
